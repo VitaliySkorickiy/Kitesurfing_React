@@ -17,17 +17,27 @@ const Header = () => {
 
   const bg = [headerBg, headerBg1, headerBg2];
 
-  let [showBg, setShowBg] = useState(0);
+  const titles = [
+    {
+      title: 'межводное',
+      subTitle: 'оптимальные'
+    },
+    {
+      title: 'оленёвка',
+      subTitle: 'хорошие'
+    },
+    {
+      title: 'мирный',
+      subTitle: 'наилучшие'
+    }
+  ];
 
 
+  let [count, setCount] = useState(0);
 
-  let NextBg = () => {
-
-    showBg !== 2 ? setShowBg(showBg + 1) : setShowBg(showBg = 0);
+  const Next = () => {
+    setCount(current => current === titles.length - 1 ? 0 : current + 1);
   };
-
-
-
 
   return (
 
@@ -42,11 +52,11 @@ const Header = () => {
         <img
           className="slider-arrows slider-arrows__right slick-arrow"
           src={arrowsRight}
-          onClick={() => NextBg()}
+          onClick={() => Next()}
           alt="arrows__right"></img>
 
         <div className="header__slider-item slider-item"
-          style={{ backgroundImage: `url(${bg[showBg]})` }}>
+          style={{ backgroundImage: `url(${bg[count]})` }}>
 
           <div className="header__map">
 
@@ -138,11 +148,15 @@ const Header = () => {
             </svg>
           </div>
 
-          <HeaderInfo />
+          <HeaderInfo
+            showTitle={titles[count]}
+          />
 
         </div>
       </div>
-      <HeaderDots />
+      <HeaderDots
+        dotsNames={titles}
+        count={count} />
     </header >
 
   );
