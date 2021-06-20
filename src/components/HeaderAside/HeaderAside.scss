@@ -1,0 +1,51 @@
+.header__aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  border-right: 1px solid rgba(#fff, .25);
+  height: 100vh;
+  text-align: center;
+}
+
+.menu {
+  padding: 40px 0px;
+
+  a {
+    img {
+      width: 60px;
+      height: 75px;
+      margin-bottom: -10px;
+    }
+
+    span {
+      display: block;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 3px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.header__date {
+  font-size: 50px;
+  line-height: 64px;
+  font-weight: 800;
+
+  span {
+    padding-top: 15px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+    display: block;
+  }
+}
+
+.logo img {
+  width: 110px;
+}
