@@ -13,7 +13,6 @@ const Position = () => {
 
 
   const showCard = (indexDot) => {
-    console.log(indexDot);
     setCard(indexDot)
   }
 

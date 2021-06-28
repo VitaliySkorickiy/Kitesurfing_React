@@ -15,11 +15,14 @@ import headerBg1 from '../../images/headerslider-bg2.jpg'
 import headerBg2 from '../../images/headerslider-bg3.jpg'
 
 
+
 import './Home.scss'
 
 const Home = () => {
 
   const bg = [headerBg, headerBg1, headerBg2];
+
+
 
   const titles = [
     {

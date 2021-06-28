@@ -95,7 +95,6 @@ const Cards = ({ cardNum }) => {
     )
   })
 
-  console.log(cardsInfo[cardNum]);
   return (
     <div>
       {cardsInfo[cardNum]}

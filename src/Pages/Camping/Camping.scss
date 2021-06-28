@@ -1,0 +1,121 @@
+.holder {
+  background-position: bottom 30% right 10%;
+  background-repeat: no-repeat;
+
+}
+
+.holder-slider {
+  &__head {
+    background-repeat: no-repeat;
+    background-position: center left 10%;
+    min-height: 600px;
+    margin-bottom: 15px;
+    background-size: contain;
+  }
+
+  &__subtitle {
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  &__btn {
+    text-align: center;
+  }
+
+}
+
+// .descr {
+//   // padding: 30px 0 0 132px;
+//   min-height: 120px;
+//   background-repeat: no-repeat;
+//   background-position: right center;
+//   background-size: contain;
+
+//   .descr__head {
+//     position: relative;
+//     padding-right: 68px;
+
+//     &.descr__head-sleep {
+//       padding-right: 215px;
+//     }
+
+//     img {
+//       position: absolute;
+//       right: 0;
+//       top: 0;
+//     }
+
+//     .holder__star-list {
+//       position: absolute;
+//       right: 0;
+//       top: 0;
+
+//       img {
+//         position: static;
+//       }
+//     }
+//   }
+// }
+
+.holder-slider__info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.holder-slider__info-gamak {
+  &::after {
+    content: "";
+    background-image: url(../../images/gamak.png);
+    background-size: cover;
+    min-height: 450px;
+    min-width: 550px;
+    position: absolute;
+    bottom: 250px;
+    right: 0px;
+  }
+}
+
+.holder-slider__info-item {
+  min-height: 130px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.holder-slider__info-subtitle {
+  position: absolute;
+  line-height: 22px;
+  letter-spacing: 3px;
+  opacity: 0.5;
+  transform: rotate(-90deg);
+  font-size: 18px;
+  top: 95px;
+  left: -95px;
+  width: 200px;
+  height: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.holder-slider__info-title {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 800;
+  padding-left: 40px;
+  position: relative;
+
+  .summ {
+    min-width: 85px;
+  }
+
+  .holder-pricing__span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0;
+    text-align: right;
+    letter-spacing: 5.25px;
+    opacity: 0.75;
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+  }
+}
