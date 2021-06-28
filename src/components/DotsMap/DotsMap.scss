@@ -1,0 +1,40 @@
+.slider-dots {
+  position: absolute;
+}
+
+.slider-dots1 {
+  top: 225px;
+  left: 165px;
+}
+
+.slider-dots2 {
+  top: 300px;
+  left: 130px;
+
+  .slider-dots__content {
+    transform: translateX(0px);
+  }
+}
+
+.slider-dots3 {
+  top: 315px;
+  left: 230px;
+}
+
+.slider-dots4 {
+  top: 230px;
+  left: 900px;
+}
+
+.slider-dots5 {
+  top: 300px;
+  left: 820px;
+}
+
+.slider-dots__circle {
+  width: 23px;
+  height: 23px;
+  background-color: #00ffff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
+}

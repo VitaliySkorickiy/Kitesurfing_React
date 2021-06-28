@@ -3,9 +3,6 @@ import './HeaderDots.scss'
 
 const HeaderDots = ({ dotsNames, count }) => {
 
-
-  console.log(dotsNames);
-
   let buttons = dotsNames.map((item, id) => {
 
     const isActive = id === count;

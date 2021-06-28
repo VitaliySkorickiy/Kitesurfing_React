@@ -120,7 +120,7 @@ img {
 
 .title {
   div {
-    font-size: 120px;
+    font-size: 110px;
     font-weight: 800;
     color: rgba(255, 255, 255, 0.2);
     position: relative;
@@ -134,7 +134,7 @@ img {
 
   h3 {
     position: absolute;
-    top: 55px;
+    top: 70px;
     right: -70px;
     margin: 0;
     color: #fff;
@@ -184,8 +184,8 @@ img {
 
 .btn {
   font-weight: 800;
-  font-size: 40px;
-  line-height: 36px;
+  font-size: 35px;
+  line-height: 20px;
 
   span {
     padding: 17px 57px 15px 17px;
@@ -220,13 +220,13 @@ img {
 
 .surf,
 .holder {
-  padding: 100px 0 120px;
+  // padding: 100px 0 120px;
 
 }
 
 .holder {
-  padding-bottom: 150px;
-  margin-bottom: 35px;
+  // padding-bottom: 150px;
+  // margin-bottom: 35px;
 }
 
 .quantity {
@@ -297,7 +297,3 @@ input[type=number] {
 
   }
 }
-
-
-
-/* Slider */
