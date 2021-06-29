@@ -13,8 +13,6 @@ import './Trail.scss'
 
 const Trail = () => {
 
-
-
   const beaches = [
     {
       id: 1,

@@ -27,13 +27,13 @@ const DotsMap = ({ showCard }) => {
     }
   ];
 
-  const dotsMap = dots.map((dot, indexDot) => {
+  const dotsMap = dots.map((dot, i) => {
 
     return (
       <div
-        key={indexDot}
+        key={i}
         className={`slider-dots ${dot.num}`}
-        onClick={() => showCard(indexDot)}
+        onClick={() => showCard(i)}
       >
         <div className="slider-dots__circle"></div>
       </div >
