@@ -13,13 +13,15 @@ import './App.scss';
 function App() {
   return (
     <>
+
+      <h1>react</h1>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/position" component={Position} />
-          <Route exact path="/trail" component={Trail} />
-          <Route exact path="/camping" component={Camping} />
-          <Route exact path="/rent" component={Rent} />
+          <Route path="/position" component={Position} />
+          <Route path="/trail" component={Trail} />
+          <Route path="/camping" component={Camping} />
+          <Route path="/rent" component={Rent} />
         </Switch>
       </Router>
 
