@@ -52,24 +52,20 @@ const Camping = () => {
   ];
 
   let [countHotel, setCountHotel] = useState(0);
-
   const onClickNext = () => {
-    setCountHotel(current => current === hotels.length - 1 ? 0 : current + 1);
+    setCountHotel(countHotel => countHotel === hotels.length - 1 ? 0 : countHotel + 1);
   };
 
   const [countNights, setCountNights] = useState(1);
   const onChangeNights = e => setCountNights(e.target.value);
-
   if (countNights < 1) {
     setCountNights(1);
   } else if (countNights > 30) {
-    setCountNights(9)
+    setCountNights(30)
   }
-
 
   const [countGuest, setCountGuest] = useState(1);
   const onChangeGuest = e => setCountGuest(e.target.value);
-
   if (countGuest < 1) {
     setCountGuest(1);
   } else if (countGuest > 6) {
@@ -92,18 +88,16 @@ const Camping = () => {
 
     return (
 
-
-
       <div className="holder__slider-item holder-slider">
 
-        <div className="holder-slider__head" style={{ backgroundImage: `${hotel.img}` }}>
+        <div className="holder-slider__head"
+          style={{ backgroundImage: `${hotel.img}` }}>
           <div className="holder-slider__subtitle">
             <div className="subtitle">
               <div className="headerline-left">Отель</div>
               <div className="subtitle__head">{hotel.title}</div>
             </div>
           </div>
-
 
           <div className="descr-hotel">
             <div className="headerline-right">Рейтинг</div>
@@ -117,16 +111,13 @@ const Camping = () => {
               </ul>
             </div>
           </div>
-
         </div>
 
         <div className="holder-slider__info">
-
           <div className="holder-slider__info-item">
             <div className="holder-slider__info-subtitle">Курорт</div>
             <div className="holder-slider__info-title"> Межводное</div>
           </div>
-
           <div className="holder-slider__info-item">
             <div className="holder-slider__info-subtitle"># Ночей</div>
             <div className="holder-slider__info-title">
@@ -154,7 +145,6 @@ const Camping = () => {
                     <img src={minus} alt="" />
                   </div>
                 </div>
-
               </div>
               ночей
             </div>
@@ -180,14 +170,12 @@ const Camping = () => {
                     onClick={() => setCountGuest(countGuest + 1)}>
                     <img src={plus} alt="" />
                   </div>
-
                   <div
                     className="quantity-button quantity-down"
                     onClick={() => setCountGuest(countGuest - 1)}>
                     <img src={minus} alt="" />
                   </div>
                 </div>
-
               </div>
               гостей
             </div>
@@ -202,10 +190,7 @@ const Camping = () => {
               <span> USD</span>
             </div>
           </div>
-
         </div>
-
-
       </div>
 
     )
@@ -214,7 +199,6 @@ const Camping = () => {
   return (
 
     <>
-
       <MenuNav />
       <ArrowsNext onClickNext={onClickNext} />
 

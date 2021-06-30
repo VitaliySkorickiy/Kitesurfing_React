@@ -2,7 +2,6 @@
   "name": "kitesurfing",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "https://zarias2020.github.io/Kitesurfing_React/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -20,9 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    // "predeploy": "react-scripts build",
-    // "deploy": "gh-pages -d buil"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
