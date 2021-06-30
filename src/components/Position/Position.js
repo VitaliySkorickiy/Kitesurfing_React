@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import MenuNav from '../../components/MenuNav/MenuNav';
+import MenuNav from '../MenuNav/MenuNav';
 
-import DotsMap from '../../components/DotsMap/DotsMap';
-import Cards from '../../components/Cards/Cards';
+import DotsMap from '../DotsMap/DotsMap';
+import Cards from '../Cards/Cards';
 
 import './Position.scss'
 

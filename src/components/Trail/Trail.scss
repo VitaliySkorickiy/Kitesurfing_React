@@ -6,6 +6,7 @@
 }
 
 .holder-slider {
+
   &__head {
     background-repeat: no-repeat;
     background-position: center left 10%;
@@ -25,45 +26,21 @@
 
 }
 
-.holder-slider__descr {
-  position: absolute;
-  bottom: 200px;
-  left: 100px;
-}
 
-.descr {
-  min-height: 120px;
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
+.descr-trail {
+  position: absolute;
+  bottom: 250px;
+  left: 100px;
+  text-shadow: 3px 3px 3px #000;
+  z-index: 5;
 
   .descr__head {
     position: relative;
     padding-right: 68px;
-
-    &.descr__head-sleep {
-      padding-right: 215px;
-    }
-
-    img {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
-    .holder__star-list {
-      position: absolute;
-      right: 0;
-      top: 0;
-
-      img {
-        position: static;
-      }
-    }
   }
 }
 
-.holder-slider__info {
+.holder-slider__info-trail {
   display: flex;
   justify-content: space-around;
 }

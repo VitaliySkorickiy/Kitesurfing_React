@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
-import Home from './components/Header/Home';
+import Home from './components/Home/Home';
 
-import Position from './Pages/Position/Position'
-import Trail from './Pages/Trail/Trail'
-import Camping from './Pages/Camping/Camping'
-import Rent from './Pages/Rent/Rent'
+import Position from './components/Position/Position'
+import Trail from './components/Trail/Trail'
+import Camping from './components/Camping/Camping'
+import Rent from './components/Rent/Rent'
 
 import './App.scss';
 

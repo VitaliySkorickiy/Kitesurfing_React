@@ -1,0 +1,64 @@
+.holder {
+  background-position: bottom 30% right 10%;
+  background-repeat: no-repeat;
+}
+
+.holder-slider {
+  &__head {
+    background-repeat: no-repeat;
+    background-position: center left 10%;
+    min-height: 600px;
+    margin-bottom: 15px;
+    background-size: contain;
+    position: relative;
+  }
+}
+
+.descr-hotel {
+  position: absolute;
+  padding-left: 100px;
+  min-height: 120px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  bottom: 0;
+  text-shadow: 3px 3px 3px #000;
+
+  .descr__head {
+    position: relative;
+    padding-right: 68px;
+
+    &.descr__head-sleep {
+      padding-right: 215px;
+    }
+
+    .holder__star-list {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      img {
+        position: static;
+      }
+    }
+  }
+}
+
+.holder-slider__info {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+.holder-slider__info-gamak {
+  &::after {
+    content: "";
+    background-image: url(../../images/gamak.png);
+    background-size: cover;
+    min-height: 450px;
+    min-width: 550px;
+    position: absolute;
+    bottom: 250px;
+    right: 0px;
+  }
+}

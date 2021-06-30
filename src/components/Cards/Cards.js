@@ -74,21 +74,25 @@ const Cards = ({ cardNum }) => {
         <div className={`slider-dots__content ${card.clazz}`} >
           <div className="slider-dots__content-title">{card.title}</div>
           <div className="slider-dots__content-row">
+
             <div className="slider-dots__content-item">
               <img src={surfIcon} alt="surfIcon" />
               <div className="slider-dots__content-number">{card.wave}</div>
               <div className="slider-dots__content-name">{card.waveValue}</div>
             </div>
+
             <div className="slider-dots__content-item">
               <img src={waterIcon} alt="waterIcon" />
               <div className="slider-dots__content-number">{card.rainfall}</div>
               <div className="slider-dots__content-name">{card.rainfallValue}</div>
             </div>
+
             <div className="slider-dots__content-item">
               <img src={windIcon} alt="windIcon" />
               <div className="slider-dots__content-number">{card.wind}</div>
               <div className="slider-dots__content-name">{card.windValue}</div>
             </div>
+
           </div>
         </div>
       </div >
