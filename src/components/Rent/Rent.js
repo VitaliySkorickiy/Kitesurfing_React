@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { useCount } from '../Hooks/useCount';
+// import { useCount } from '../Hooks/useCount';
 
 import MenuNav from '../MenuNav/MenuNav';
 import ArrowsNext from '../ArrowsNext/ArrowsNext';
