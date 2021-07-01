@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Kitesurfing_React/static/css/main.925ba930.chunk.css",
-    "main.js": "/Kitesurfing_React/static/js/main.8879472c.chunk.js",
-    "main.js.map": "/Kitesurfing_React/static/js/main.8879472c.chunk.js.map",
+    "main.js": "/Kitesurfing_React/static/js/main.a5b37139.chunk.js",
+    "main.js.map": "/Kitesurfing_React/static/js/main.a5b37139.chunk.js.map",
     "runtime-main.js": "/Kitesurfing_React/static/js/runtime-main.1f5c8dcd.js",
     "runtime-main.js.map": "/Kitesurfing_React/static/js/runtime-main.1f5c8dcd.js.map",
     "static/js/2.1ca8b832.chunk.js": "/Kitesurfing_React/static/js/2.1ca8b832.chunk.js",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.1f5c8dcd.js",
     "static/js/2.1ca8b832.chunk.js",
     "static/css/main.925ba930.chunk.css",
-    "static/js/main.8879472c.chunk.js"
+    "static/js/main.a5b37139.chunk.js"
   ]
 }
