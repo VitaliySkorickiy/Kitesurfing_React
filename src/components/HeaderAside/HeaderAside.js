@@ -16,12 +16,12 @@ const HeaderAside = () => {
   const btns = [
     {
       title: 'карта',
-      href: '/position',
+      href: "/position",
       img: navIco1
     },
     {
       title: 'маршрут',
-      href: '/trail',
+      href: "/trail",
       img: navIco2
     },
     {

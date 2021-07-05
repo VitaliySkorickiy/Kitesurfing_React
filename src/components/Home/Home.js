@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Map1 from '../Maps/map1/Map1';
 import Map2 from '../Maps/map2/Map2';
 import Map3 from '../Maps/map3/Map3';
-import MenuBtn from '../MenuBtn/MenuBtn';
 import HeaderDots from '../HeaderDots/HeaderDots';
 import HeaderInfo from '../HeaderInfo/HeaderInfo';
 import HeaderAside from '../HeaderAside/HeaderAside';
@@ -46,6 +45,8 @@ const Home = () => {
     setCount(current => current === titles.length - 1 ? 0 : current + 1);
   };
 
+
+
   return (
     <>
 
@@ -56,7 +57,6 @@ const Home = () => {
         </div>
 
         <HeaderAside />
-        <MenuBtn />
 
         <div className="header__slider">
 

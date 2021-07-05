@@ -88,7 +88,8 @@
   position: relative;
 
   .summ {
-    min-width: 85px;
+    display: inline-block;
+    min-width: 90px;
   }
 
   .holder-pricing__span {

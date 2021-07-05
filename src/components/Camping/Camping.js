@@ -184,9 +184,9 @@ const Camping = () => {
           <div className="holder-slider__info-item">
             <div className="holder-slider__info-subtitle">стоимость</div>
             <div className="holder-slider__info-title">
-              <span className="summ" data-nights="55" data-guests="25">
+              <div className="summ" data-nights="55" data-guests="25">
                 ${totalPriceItems(order, hotel)}
-              </span>
+              </div>
               <span> USD</span>
             </div>
           </div>
