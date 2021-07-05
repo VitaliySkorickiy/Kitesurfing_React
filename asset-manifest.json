@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Kitesurfing_React/static/css/main.925ba930.chunk.css",
-    "main.js": "/Kitesurfing_React/static/js/main.2c0d05c1.chunk.js",
-    "main.js.map": "/Kitesurfing_React/static/js/main.2c0d05c1.chunk.js.map",
+    "main.css": "/Kitesurfing_React/static/css/main.b51e924f.chunk.css",
+    "main.js": "/Kitesurfing_React/static/js/main.349a465d.chunk.js",
+    "main.js.map": "/Kitesurfing_React/static/js/main.349a465d.chunk.js.map",
     "runtime-main.js": "/Kitesurfing_React/static/js/runtime-main.1f5c8dcd.js",
     "runtime-main.js.map": "/Kitesurfing_React/static/js/runtime-main.1f5c8dcd.js.map",
     "static/js/2.f99907cb.chunk.js": "/Kitesurfing_React/static/js/2.f99907cb.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.01133357.chunk.js": "/Kitesurfing_React/static/js/3.01133357.chunk.js",
     "static/js/3.01133357.chunk.js.map": "/Kitesurfing_React/static/js/3.01133357.chunk.js.map",
     "index.html": "/Kitesurfing_React/index.html",
-    "static/css/main.925ba930.chunk.css.map": "/Kitesurfing_React/static/css/main.925ba930.chunk.css.map",
+    "static/css/main.b51e924f.chunk.css.map": "/Kitesurfing_React/static/css/main.b51e924f.chunk.css.map",
     "static/js/2.f99907cb.chunk.js.LICENSE.txt": "/Kitesurfing_React/static/js/2.f99907cb.chunk.js.LICENSE.txt",
     "static/media/PLdon.7e413377.jpg": "/Kitesurfing_React/static/media/PLdon.7e413377.jpg",
     "static/media/PLkam.8c467006.png": "/Kitesurfing_React/static/media/PLkam.8c467006.png",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.1f5c8dcd.js",
     "static/js/2.f99907cb.chunk.js",
-    "static/css/main.925ba930.chunk.css",
-    "static/js/main.2c0d05c1.chunk.js"
+    "static/css/main.b51e924f.chunk.css",
+    "static/js/main.349a465d.chunk.js"
   ]
 }
